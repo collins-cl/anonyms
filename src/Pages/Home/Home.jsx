@@ -28,6 +28,47 @@ const Home = () => {
                 until you ever choose to reveal your identity.
               </div>
             </div>
+
+            <div className="box1">
+              <div className="img">
+                <img src={Two} alt="" />
+              </div>
+
+              <div className="title">Anonymity</div>
+
+              <div className="description">
+                Our Platform ensures your privacy so that you stay anonymous
+                everytime you send someone a secret message. You are anonymous
+                until you ever choose to reveal your identity.
+              </div>
+            </div>
+            <div className="box1">
+              <div className="img">
+                <img src={Three} alt="" />
+              </div>
+
+              <div className="title">Anonymity</div>
+
+              <div className="description">
+                Our Platform ensures your privacy so that you stay anonymous
+                everytime you send someone a secret message. You are anonymous
+                until you ever choose to reveal your identity.
+              </div>
+            </div>
+
+            <div className="box1">
+              <div className="img">
+                <img src={Four} alt="" />
+              </div>
+
+              <div className="title">Anonymity</div>
+
+              <div className="description">
+                Our Platform ensures your privacy so that you stay anonymous
+                everytime you send someone a secret message. You are anonymous
+                until you ever choose to reveal your identity.
+              </div>
+            </div>
           </div>
         </div>
       </div>

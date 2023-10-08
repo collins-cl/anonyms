@@ -9,36 +9,43 @@
     margin: auto;
     margin-top: 1em;
 
-    .why-us{
+    .why-us {
       margin-top: 7em;
-      .head{
+      .head {
         text-align: center;
         font-size: 2em;
         font-weight: bold;
       }
 
-      .reasons{
-        .box1{
-          width: 280px;
+      .reasons {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .box1 {
+          margin-top: 3em;
+          width: 260px;
           height: 350px;
           padding: 2em;
           border-radius: 5px;
-          background-color: red;
-
-          .img{
-            img{
+          box-shadow: -1px 6px 21px -2px rgba(0, 0, 0, 0.17);
+          .img {
+            img {
               width: 60px;
             }
           }
 
-          .title{
+          .title {
             margin-top: 2em;
             font-size: 19px;
           }
 
-          .description{
-            font-size: 14px;
+          .description {
+            font-size: 13px;
             margin-top: 2em;
+            color: rgb(110, 108, 108);
           }
         }
       }
