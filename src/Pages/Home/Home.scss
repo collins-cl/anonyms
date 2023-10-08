@@ -1,0 +1,47 @@
+.home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  .wrapper {
+    max-width: 85%;
+    margin: auto;
+    margin-top: 1em;
+
+    .why-us{
+      margin-top: 7em;
+      .head{
+        text-align: center;
+        font-size: 2em;
+        font-weight: bold;
+      }
+
+      .reasons{
+        .box1{
+          width: 280px;
+          height: 350px;
+          padding: 2em;
+          border-radius: 5px;
+          background-color: red;
+
+          .img{
+            img{
+              width: 60px;
+            }
+          }
+
+          .title{
+            margin-top: 2em;
+            font-size: 19px;
+          }
+
+          .description{
+            font-size: 14px;
+            margin-top: 2em;
+          }
+        }
+      }
+    }
+  }
+}

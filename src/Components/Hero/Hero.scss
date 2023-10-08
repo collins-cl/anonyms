@@ -1,0 +1,90 @@
+.hero {
+  background-image: url("../../Assets/home-banner.jpg");
+  height: 120vh;
+  width: 100%;
+  color: white;
+  position: relative;
+
+  .wrapper {
+    width: 85%;
+    margin: auto;
+    padding-top: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+      width: 60%;
+
+      h3 {
+        font-size: 3.5em;
+        font-weight: bold;
+      }
+
+      p {
+        margin-top: 2em;
+        width: 70%;
+        font-size: 13px;
+      }
+
+      .get-start {
+        width: 30%;
+        height: 45px;
+        margin-top: 2em;
+        color: black;
+        font-weight: bold;
+        letter-spacing: 1px;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+          transition: all 0.4s;
+          background-color: transparent;
+          border: 1px solid white;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    background-image: url("../../Assets/home-banner.jpg");
+    height: 65vh;
+    width: 100%;
+    color: white;
+    position: relative;
+
+    .wrapper {
+      width: 85%;
+      margin: auto;
+      padding-top: 30%;
+
+      .left {
+        width: 100%;
+
+        h3 {
+          font-size: 2em;
+        }
+
+        p {
+          width: 100%;
+        }
+
+        .get-start {
+          width: 70%;
+          height: 45px;
+        }
+      }
+
+      .right {
+        display: none;
+      }
+    }
+  }
+}

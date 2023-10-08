@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./Fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "Poppins-B";
+  src: url("./Fonts/Montserrat/static/Montserrat-ExtraBold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
