@@ -17,8 +17,16 @@
         font-weight: bold;
       }
 
-      .reasons {
+      .desc {
+        width: 70%;
+        margin: auto;
+        font-size: 14px;
+        margin-top: 2em;
+        text-align: center;
+        color: rgb(101, 99, 99);
+      }
 
+      .reasons {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -26,7 +34,6 @@
         margin-top: 3em;
 
         .box1 {
-        
           width: 260px;
           height: 350px;
           padding: 2em;
@@ -34,7 +41,7 @@
           box-shadow: -1px 6px 21px -2px rgba(0, 0, 0, 0.17);
           .img {
             img {
-              width: 60px;
+              width: 55px;
             }
           }
 
@@ -47,6 +54,116 @@
             font-size: 13px;
             margin-top: 2em;
             color: rgb(110, 108, 108);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    .wrapper {
+      max-width: 94%;
+      margin: auto;
+      margin-top: 1em;
+
+      .why-us {
+        margin-top: 5em;
+        .head {
+          font-size: 1.7em;
+        }
+
+        .desc {
+          width: 100%;
+          margin: auto;
+          margin-top: 2em;
+        }
+
+        .reasons {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          gap: 2em;
+          margin-top: 4em;
+
+          .box1 {
+            width: 100%;
+            height: fit-content;
+            padding: 3em 2em;
+            box-shadow: -1px 6px 21px -2px rgba(0, 0, 0, 0.11);
+            .img {
+              img {
+                width: 55px;
+              }
+            }
+
+            .title {
+              margin-top: 1.5em;
+              font-size: 19px;
+            }
+
+            .description {
+              font-size: 13px;
+              margin-top: 2em;
+              color: rgb(110, 108, 108);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .home {
+    .wrapper {
+      max-width: 94%;
+      margin: auto;
+      margin-top: 1em;
+
+      .why-us {
+        margin-top: 5em;
+        .head {
+          font-size: 1.7em;
+        }
+
+        .desc {
+          width: 100%;
+          margin: auto;
+          margin-top: 2em;
+        }
+
+        .reasons {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          gap: 2em;
+          margin-top: 4em;
+
+          .box1 {
+            width: 48%;
+            height: fit-content;
+            padding: 3em 2em;
+            box-shadow: -1px 6px 21px -2px rgba(0, 0, 0, 0.11);
+            .img {
+              img {
+                width: 55px;
+              }
+            }
+
+            .title {
+              margin-top: 1.5em;
+              font-size: 19px;
+            }
+
+            .description {
+              font-size: 13px;
+              margin-top: 2em;
+              color: rgb(110, 108, 108);
+            }
           }
         }
       }

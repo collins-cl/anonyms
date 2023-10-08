@@ -9,7 +9,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 70) {
       setScroll(true);
     } else {
       setScroll(false);
